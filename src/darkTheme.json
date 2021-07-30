@@ -1,0 +1,38 @@
+{
+    "themeCheck": "true",
+    "bodyWhiteTheme": {
+        "backgroundColor": "#f5f5f5"
+    },
+    "titleContainerWhiteTheme": {
+        "backgroundColor": "#001E6C",
+        "color": "#f5f5f5"
+    },
+    "textContainerWhiteTheme": {
+        "color": "#111111"
+    },
+    "counterContainerWhiteTheme": {
+        "color": "#f5f5f5",
+        "backgroundColor": "#5089C6"
+    },
+    "countingPartWhiteTheme": {
+        "color": "#f5f5f5"
+    },
+    "bodyDarkTheme": {
+        "backgroundColor": "#121212"
+    },
+    "titleContainerDarkTheme": {
+        "backgroundColor": "#333333",
+        "color": "#f5f5f5"
+    },
+    "textContainerDarkTheme": {
+        "color": "#0C9BBD",
+        "backgroundColor": "#121212"
+    },
+    "counterContainerDarkTheme": {
+        "color": "#f5f5f5",
+        "backgroundColor": "#333333"
+    },
+    "countingPartDarkTheme": {
+        "color": "#76BA1B"
+    }
+}

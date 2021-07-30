@@ -1,0 +1,137 @@
+html, body, #root, #mainDivision{
+  height:100%;
+  margin:0;
+  overflow-y: hidden;
+}
+
+/* Scroll bar css*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5089C6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #035397;
+}
+/*Scroll bar css end*/
+
+.container{
+  width:100%;
+  height:100%;
+  perspective:1000px;
+  transition:all 0.8s;
+}
+
+#titleContainer{
+  border:transparent;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transform-style: preserve-3d;
+  transform:scale3d(1, 1, 1)
+}
+
+#title{
+  display: inline-block;
+  padding:5px 0px;
+  font-size:22px;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+#textArea{
+  height: 50%;
+  perspective: 1000px;
+}
+
+#textContainer{
+  height:100%;
+  border:transparent;
+  border-radius: 2px;
+  color:#111111;
+  transform-style: preserve-3d;
+  transform:scale(1, 1);
+}
+
+#textAreaValue{
+  display: block;
+  resize: none;
+  height:100%;
+  width:100%;
+  padding:5px 0px;
+  font-size:16px;
+  font-weight:bold;
+  color:#111111;
+  border:transparent;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+#textAreaValue:focus{
+ outline:none;
+}
+
+#text{
+  height:100%;
+  padding:5px 0px;
+  font-size:16px;
+  color:#111111;
+  background-color:#f5f5f5;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+#text:focus{
+  outline:none;
+}
+
+#characterCountRow{
+  position:absolute;
+  width:100%;
+  bottom:1%;
+}
+
+.counterContainer{
+  border:transparent;
+  border-radius: 2px;
+  background-color: #5089C6;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color:#f5f5f5;
+  transform-style: preserve-3d;
+  transform:scale3d(1, 1, 1)
+}
+
+.countingPart{
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:576px) {
+   .counterContainer{
+     font-size:15px;
+   }
+}
+@media screen and (min-width:576px) {
+  #title{
+    font-size: 28px;
+  }
+  #textAreaValue{
+    font-size: 20px;
+  }
+}
+
+
