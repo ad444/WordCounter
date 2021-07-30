@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WordCounter/static/css/main.8bf6e9f6.chunk.css",
+    "main.js": "/WordCounter/static/js/main.b65a4b93.chunk.js",
+    "main.js.map": "/WordCounter/static/js/main.b65a4b93.chunk.js.map",
+    "runtime-main.js": "/WordCounter/static/js/runtime-main.d27b2388.js",
+    "runtime-main.js.map": "/WordCounter/static/js/runtime-main.d27b2388.js.map",
+    "static/js/2.60024517.chunk.js": "/WordCounter/static/js/2.60024517.chunk.js",
+    "static/js/2.60024517.chunk.js.map": "/WordCounter/static/js/2.60024517.chunk.js.map",
+    "static/js/3.165b418a.chunk.js": "/WordCounter/static/js/3.165b418a.chunk.js",
+    "static/js/3.165b418a.chunk.js.map": "/WordCounter/static/js/3.165b418a.chunk.js.map",
+    "index.html": "/WordCounter/index.html",
+    "static/css/main.8bf6e9f6.chunk.css.map": "/WordCounter/static/css/main.8bf6e9f6.chunk.css.map",
+    "static/js/2.60024517.chunk.js.LICENSE.txt": "/WordCounter/static/js/2.60024517.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d27b2388.js",
+    "static/js/2.60024517.chunk.js",
+    "static/css/main.8bf6e9f6.chunk.css",
+    "static/js/main.b65a4b93.chunk.js"
+  ]
+}
